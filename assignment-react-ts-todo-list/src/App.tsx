@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Menu from "./components/Manu/Menu";
+import Todo from "./components/Todo/Todo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+
+      <div className="layout">
+        <div className="content_area">
+          <h2>Welcome!</h2>
+          <p className="desc">
+            Todo is a general-purpose website which can be used for simple home lists. You can simply create your own to do list, mark it when it's
+            done and remove it when you no longer need it. It's that easy!
+          </p>
+          <div style={{ textAlign: "center", border: "5px solid lightgrey" }}>
+            <img title="Al Amin" className="content_image" src="https://i.ibb.co/gD34ZST/profile-pic-1.png" alt="" />
+          </div>
+        </div>
+        <div className="list_area">
+          <Todo />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
