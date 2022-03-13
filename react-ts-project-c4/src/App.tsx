@@ -1,10 +1,10 @@
 import TheLayout from "./views/pages/TheLayout";
 
-function App() {
+       const App = () => {
   return (
     <div className="App">
       <TheLayout />
     </div>
   );
-}
+};
 export default App;
