@@ -1,7 +1,10 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#4B1C3B",
-        "titleBar.activeBackground": "#692853",
-        "titleBar.activeForeground": "#FDF9FB"
-    }
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#4B1C3B",
+    "titleBar.activeBackground": "#692853",
+    "titleBar.activeForeground": "#FDF9FB"
+  },
+  "cSpell.words": ["tailwindcss"],
+  "tailwindCSS.validate": false,
+  "tailwindCSS.emmetCompletions": true
 }

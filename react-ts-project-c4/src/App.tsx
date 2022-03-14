@@ -1,6 +1,6 @@
 import TheLayout from "./views/pages/TheLayout";
 
-       const App = () => {
+const App = () => {
   return (
     <div className="App">
       <TheLayout />

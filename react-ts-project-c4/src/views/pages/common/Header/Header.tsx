@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <h2>Header</h2>
+      <h2 className="bg-red-700 text-3xl">Header</h2>
     </div>
   );
 };
